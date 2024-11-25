@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avaliação de Restaurantes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Avaliação de Restaurantes</h1>
+        <p>Por favor, avalie os seguintes restaurantes com base em sua experiência.</p>
+        
+        <div class="restaurant-list">
+            <!-- Espanha Asador Etxebarri -->
+            <div class="restaurant">
+                <h2>Espanha Asador Etxebarri</h2>
+                <div class="rating">
+                    <label for="rating-etxebarri">Avaliação (1-5): </label>
+                    <input type="number" id="rating-etxebarri" min="1" max="5">
+                </div>
+            </div>
+
+            <!-- França Table by Bruno Verjus -->
+            <div class="restaurant">
+                <h2>França Table by Bruno Verjus</h2>
+                <div class="rating">
+                    <label for="rating-verjus">Avaliação (1-5): </label>
+                    <input type="number" id="rating-verjus" min="1" max="5">
+                </div>
+            </div>
+
+            <!-- Espanha DiverXo -->
+            <div class="restaurant">
+                <h2>Espanha DiverXo</h2>
+                <div class="rating">
+                    <label for="rating-diverxo">Avaliação (1-5): </label>
+                    <input type="number" id="rating-diverxo" min="1" max="5">
+                </div>
+            </div>
+
+            <!-- Peru Maido -->
+            <div class="restaurant">
+                <h2>Peru Maido</h2>
+                <div class="rating">
+                    <label for="rating-maido">Avaliação (1-5): </label>
+                    <input type="number" id="rating-maido" min="1" max="5">
+                </div>
+            </div>
+
+            <!-- EUA Atomix -->
+            <div class="restaurant">
+                <h2>EUA Atomix</h2>
+                <div class="rating">
+                    <label for="rating-atomix">Avaliação (1-5): </label>
+                    <input type="number" id="rating-atomix" min="1" max="5">
+                </div>
+            </div>
+
+            <!-- México Quintonil -->
+            <div class="restaurant">
+                <h2>México Quintonil</h2>
+                <div class="rating">
+                    <label for="rating-quintonil">Avaliação (1-5): </label>
+                    <input type="number" id="rating-quintonil" min="1" max="5">
+                </div>
+            </div>
+
+            <!-- Dinamarca Alchemist -->
+            <div class="restaurant">
+                <h2>Dinamarca Alchemist</h2>
+                <div class="rating">
+                    <label for="rating-alchemist">Avaliação (1-5): </label>
+                    <input type="number" id="rating-alchemist" min="1" max="5">
+                </div>
+            </div>
+
+            <!-- Tailândia Gaggan -->
+            <div class="restaurant">
+                <h2>Tailândia Gaggan</h2>
+                <div class="rating">
+                    <label for="rating-gaggan">Avaliação (1-5): </label>
+                    <input type="number" id="rating-gaggan" min="1" max="5">
+                </div>
+            </div>
+
+            <!-- Argentina Don Julio -->
+            <div class="restaurant">
+                <h2>Argentina Don Julio</h2>
+                <div class="rating">
+                    <label for="rating-don-julio">Avaliação (1-5): </label>
+                    <input type="number" id="rating-don-julio" min="1" max="5">
+                </div>
+            </div>
+        </div>
+
+        <button onclick="submitRatings()">Enviar Avaliações</button>
+
+        <div id="result" class="result"></div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
